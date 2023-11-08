@@ -1,0 +1,212 @@
+*{
+margin: 0;
+padding: 0;
+}
+:root{
+--primary-color: #033b4a;
+--secondary-color: #20c997;
+--gray:#4a4a4d;
+--bacgrond-praimary: #ecf0f3;   
+}
+
+/* start header*/
+
+header{
+    background-color: var(--bacgrond-praimary);
+ height:100vh;
+}
+
+
+header .header-content{
+display: grid;
+grid-template-columns: 1.5fr 1fr;
+max-width: 1100px;
+margin: auto;
+height: 100%;
+align-items: center;
+padding: 5rem 2rem 0;
+}
+
+header .header-content{
+margin-bottom: 5rem;
+}
+
+
+header .header-content .content-tex{
+    max-width: 330px;
+    border-radius:60px;
+    border: 2px solid #ecf0f3;
+    transition: all 0.5s ease;
+    margin-left: 10px;
+    margin-bottom: 5rem;
+    background-color: #ffffff4d;
+}
+
+header .header-content img{
+
+    max-width: 330px;
+    border-radius:60px;
+    border: 2px solid #ecf0f3;
+    transition: all 0.5s ease;
+    margin-left: 10px;
+    margin-bottom: 200px;
+    cursor: pointer;
+    }
+    
+
+
+    .text-praimary{
+        color: var(--secondary-color);
+    }
+    
+    .btn-praimary{
+    background-color: var(--secondary-color);
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    }
+    
+    .btn-praimary:hover{
+        background-color: #15a076;
+        cursor: pointer;
+    }
+    
+    
+    .container{
+    max-width:1100px;
+    margin: auto;
+    padding: 0 2rem;
+    }
+
+    header .header-content p span{
+        font-size:20px ;
+        font-weight: 700;
+        }
+        header .header-content h1{
+            font-size: 40px;
+            color: var(--primary-color);
+            text-shadow: 3px 3px 3px rgba(0, 0,0, 0.7);
+            margin-top: 10px;
+            }
+
+            header .header-content .titel{
+                font-size: 20px;
+                color: var(--primary-color);
+                margin: 10px 0;
+                font-weight:500 ; 
+                text-shadow: 3px 3px 3px rgba(0, 0,0, 0.1);
+                } 
+                
+    
+header .header-content .social{
+    margin: 16px  0 32px;
+}     
+
+
+header .header-content .social a i{
+    font-size: 18px;
+    padding: 10px;
+background-color: black;
+color: #fff;
+border-radius: 50%;
+margin-right: 10px;
+transition:all 0.3s ease ;
+}
+
+
+
+header .header-content .social a i:hover{
+    transform: scale(0.85);
+    }
+
+ h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   padding-top: 50px;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+color: var(--primary-color);
+
+
+}
+header .ahmed {
+background: var(--bacgrond-praimary);
+
+}
+
+
+
+
+/* end header*/
+
+/*start about me */
+
+#About , #skills{
+    padding: 100px 0;
+    }
+    
+    #About h2 ,#h1, 
+    #skills h2 ,
+    #services h2,
+    #Portfolio h2,
+    #Contact {
+        text-align: center;
+        font-size: 38px;
+        font-weight: 600;
+        color: var(--primary-color);
+        letter-spacing: 1px;
+    }
+    
+    #About hr ,#services hr{
+        width: 100px;
+        height: 3px;
+        background-color: var(--secondary-color);
+        border: none;
+        margin: 5px auto 0 ;
+    }
+    
+    #About .About-content{
+    margin: 4rem;
+    display: grid;
+    grid-template-columns:2fr 1fr ;
+    column-gap: 3rem;
+    }
+    
+    #About .About-content .col-1 h3{
+    font-size: 28px;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    }
+    
+    
+    
+    #About .About-content .col-1 p{
+    margin-bottom: 20px;
+    color: var(--gray);
+    line-height: 1.8;
+    
+    }
+    
+    #About .About-content .col-2 p{
+        color: var(--gray);
+        margin-bottom:20px;
+        padding-bottom: 6px;
+        border-bottom: 1.5px solid #a19d9d;
+    }
+    
+    /*end-about */
+    /*------------------------------------------------------------------------------------------------------------------------*/
+    /*start-skills*/
+    #skills hr{
+    width: 200px;
+    height: 3px;
+    background-color: var(--secondary-color);
+    border: none;
+    margin: 5px auto 0 ;
+    }
+    
+/*end about me */
